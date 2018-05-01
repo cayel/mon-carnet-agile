@@ -1,0 +1,52 @@
+baseurl = "/"
+title = "Mon Carnet Agile"
+theme = "hyde-hyde"
+
+## Site Settings
+[params]
+    author = "Christophe Ayel"
+    title = "Mon Carnet Agile"
+    description = "Quelques articles au sujet de l'agilité"
+    authorimage = "/img/carnet.jpg"
+    dateformat = "2 Jan 2006"
+    highlightjs = true
+    copyright = "(c)2018 - cayel"
+    languageCode = "fr-FR"
+    languageLang = "fr"
+    languageName = "French"
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[languages]
+  [languages.en]
+  [languages.fr]
+    copyright = ""
+    title = "Mon Carnet Agile"
+    weight = 2
+    [languages.fr.params]
+      linkedin = "lien-francais"
+      [languages.fr.params.navigation]
+        help = "Aide"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 300
+  identifier = "tags"
+  url = "/tags/" 
+[[menu.main]]
+  name = "Catégories"
+  weight = 400
+  identifier = "categories"
+  url = "/categories/"         
