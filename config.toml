@@ -6,8 +6,8 @@ theme = "hyde-hyde"
 [params]
     author = "Christophe Ayel"
     title = "Mon Carnet Agile"
-    description = "Quelques articles au sujet de l'agilité"
-    authorimage = "/img/carnet.jpg"
+    description = " "
+    # authorimage = "/img/carnet.jpg"
     dateformat = "2 Jan 2006"
     highlightjs = true
     copyright = "(c)2018 - cayel"
